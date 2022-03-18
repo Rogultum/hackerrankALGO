@@ -1,0 +1,5 @@
+def timeConversion(s):
+    dt=datetime.strptime(s, '%I:%M:%S%p')
+    return (dt.strftime('%H:%M:%S'))
+
+# https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior

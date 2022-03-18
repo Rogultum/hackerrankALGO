@@ -1,0 +1,7 @@
+def staircase(n):
+    for i in range(1, n + 1):
+        print(('#'*i).rjust(n))
+        
+# rjust() method will right align the string like: 
+# txt = "banana" -> x = txt.rjust(20, "O") -> print(x) 
+# output : OOOOOOOOOOOOOObanana
